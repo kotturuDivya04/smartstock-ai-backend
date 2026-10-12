@@ -37,9 +37,8 @@ public class SecurityConfig {
                 CorsConfiguration configuration = new CorsConfiguration();
 
                 configuration.setAllowedOrigins(List.of(
-                                "https://smartstock-cvmmqz8du-divya-b352.vercel.app",
+                                "https://smartstock-ai-frontend.vercel.app",
                                 "https://smartstock-ai-divya-b352.vercel.app"));
-
                 configuration.setAllowedMethods(List.of(
                                 "GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
 
